@@ -1,0 +1,83 @@
+.vscode
+.DS_Store
+*.pyc
+*.swp
+.env
+rocketrip-dev.iml
+.project
+.pydevproject
+venv
+logs/*.log
+ghostdriver.log
+rocketrip/settings/local.py
+src/
+*.scssc
+*.css.map
+*.rdb
+staticfiles
+temp.csv
+temp_receipt_file
+.coverage
+bin/dump.sql
+docker/mysql/setup/dump.sql
+htmlcov/
+.sass-cache/
+.babel-cache/
+.cache/
+.idea/
+assets/screenshots/screen/
+assets/screenshots/diff/
+assets/screenshots/error/
+assets/app/
+temp_workspace/
+
+jscpd-report.html
+
+raw_tango_card_response.txt
+
+node_modules/
+assets/node_modules/
+bower_components/
+npm-debug.log
+yarn-error.log
+assets/bundles/
+assets/static/bundles/
+assets/schema.json
+assets/static/graphql/
+assets/node_modules
+webpack-stats.json
+
+local-env
+sslcert*
+
+# Generated docs
+doc
+
+# Created when celery beat starts
+celerybeat-schedule
+
+# Pyenv version
+.python-version
+
+# Environment variable config file
+rocketrip-env
+
+#Docker stuff
+database
+
+# emails
+emails/tmp
+emails/config.json
+
+# computedfields
+map.pickle
+
+__snapshots__/<stdin>__<module>.json
+
+.pytest_cache
+/.python-version
+
+supervisord.log
+supervisord.pid
+
+.npmrc
